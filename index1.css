@@ -20,6 +20,32 @@ header a{
     text-decoration: none;
     color: black
 }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s; /* Add transition for smooth zoom effect */
+  }
+  
+  button:hover {
+    transform: scale(1.2); /* Apply the zoom effect on hover */
+  }
+  nav a{
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  nav a:hover{
+    transform: scale(1.2);
+  }
+  
+  
+  
+  
+  
+  
+  
 
 @keyframes flicker {
     0% { opacity: 1; }
