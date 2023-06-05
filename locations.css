@@ -1,0 +1,55 @@
+.locations{
+    
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    background: linear-gradient(black,gray);
+    height: 100%;
+
+
+}
+nav {
+    display: inline;
+    
+    
+    padding: 7PX;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+}
+nav a:hover{
+    color:orange
+}
+h2 i{
+    padding: 4px;
+    color: red;
+}
+
+.locations h2{
+    color: green;
+    margin-bottom: .8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+#locheading{
+    justify-content: center;
+    font-size: 2.5em;
+    color:black;
+    display: flex;
+    background-color: gray;
+    
+}
+.maincourse{
+    grid-row: span 2;
+}
+footer{
+    background-color: gray;
+    color: var(--white);
+}
